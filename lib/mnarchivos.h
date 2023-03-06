@@ -38,6 +38,8 @@ void crearescribir(){
  archivo.close(); 
 }
 
+
+
 void mnporcent() //Porcentaje de carga para leer archivos
 {
 float len=5;
@@ -77,7 +79,7 @@ Sleep(200);
 }
 
 
-
+// Leer el archivo con porcentajes
 void leer(string pathfile)
 {int cont=0;
 HANDLE hConsole= GetStdHandle(STD_OUTPUT_HANDLE);

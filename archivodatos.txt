@@ -1,0 +1,11 @@
+Cap,Geo,Arsenal
+4,GPS4,acd
+9,GPS9,aaabbcd
+4,GPS4,acd
+1,GPS1,bc
+9,GPS3,bcd
+4,GPS4,acd
+4,GPS4,acd
+5,GPS5,bct
+7,GPS7,aaabbct
+1,GPS1,bc

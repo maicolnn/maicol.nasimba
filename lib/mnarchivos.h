@@ -79,7 +79,8 @@ Sleep(200);
 
 
 void leer(string pathfile)
-{
+{int cont=0;
+HANDLE hConsole= GetStdHandle(STD_OUTPUT_HANDLE);
 	ifstream archivo(pathfile);
 	string texto;
 	
@@ -90,11 +91,15 @@ void leer(string pathfile)
 	}
 	
 	while(!archivo.eof())
-	{ 	
+	{ 	if(cont>0)
+		{
+		SetConsoleTextAttribute(hConsole,2);
+		}
 		getline(archivo,texto);
 		mnporcent();
 		
 		cout<<"                          "<<texto<<endl;
+		cont++;
 	}
 	
 	archivo.close(); 

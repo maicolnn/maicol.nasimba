@@ -22,8 +22,8 @@ int main()
 {
 HANDLE hConsole= GetStdHandle(STD_OUTPUT_HANDLE);
 SetConsoleTextAttribute(hConsole,1);
-cout<<"Leyendo archivos"<<endl;
-SetConsoleTextAttribute(hConsole,2);
+cout<<"Leyendo archivos..."<<endl;
+SetConsoleTextAttribute(hConsole,4);
 leer("archivodatos.txt");
 
 return 0;
